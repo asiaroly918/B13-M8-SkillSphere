@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/200",
+    "title": "Introduction to JavaScript",
+    "price": 49.99,
+    "author": "John Doe",
+    "reviewNumber": 450,
+    "lessons": 20,
+    "students": 150,
+    "category": "Programming"
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/300",
+    "title": "Advanced Python Programming",
+    "price": 69.99,
+    "author": "Jane Smith",
+    "reviewNumber": 670,
+    "lessons": 25,
+    "students": 120,
+    "category": "Programming"
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/400",
+    "title": "UI/UX Design Fundamentals",
+    "price": 59.99,
+    "author": "Emily Johnson",
+    "reviewNumber": 460,
+    "lessons": 30,
+    "students": 90,
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/500",
+    "title": "Ethical Hacking Basics",
+    "price": 55.99,
+    "author": "Michael Brown",
+    "reviewNumber": 440,
+    "lessons": 18,
+    "students": 110,
+    "category": "Hacking"
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/600",
+    "title": "Full Stack Web Development",
+    "price": 79.99,
+    "author": "Chris Lee",
+    "reviewNumber": 480,
+    "lessons": 40,
+    "students": 200,
+    "category": "Programming"
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/700",
+    "title": "Software Testing and QA",
+    "price": 45.99,
+    "author": "Alex Wilson",
+    "reviewNumber": 430,
+    "lessons": 22,
+    "students": 80,
+    "category": "Software"
+  }
+]

@@ -1,23 +1,29 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
+
 
 const Navbar = () => {
+    const isLoggedIn = false; 
     return (
-    <nav className="fixed w-full transition-all duration-200 h-[12vh] z-[1000] bg-blue-700">
-        <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
+    <nav className="w-full h-[12vh] bg-blue-700 fixed z-50">
         
-        {/* Logo */}
-        <Image
-        src="/images/logo.png"
-        alt="Logo"
-        width={120}
-        height={120}
-        priority
-    />
+    <div className="w-[90%] xl:w-[80%] mx-auto flex items-center justify-between h-full">
 
-        {/* Menu */}
-        <ul className="flex items-center gap-5 text-sm">
+    {/*Logo */}
+        <div>
+        <Image
+            src="/images/logo.png"
+            alt="SkillSphere Logo"
+            width={110}
+            height={110}
+            priority
+        />
+        </div>
+
+        {/*NavLinks */}
+        <ul className="flex items-center gap-6 text-white text-sm">
         <li>
             <Link href="/">Home</Link>
         </li>
@@ -25,19 +31,48 @@ const Navbar = () => {
             <Link href="/courses">Courses</Link>
         </li>
         <li>
-            <Link href="/my profile">My Profile</Link>
+            <Link href="/my-profile">My Profile</Link>
         </li>
         </ul>
 
-        {/* Auth */}
-        <ul className="flex items-center gap-4 text-sm">
-        <li>
-            <Link href="/logout">Logout</Link>
-        </li>
-        <li>
-            <Link href="/login">Login</Link>
-        </li>
-        </ul>
+        {/*(Auth)*/}
+        <div className="flex items-center gap-4">
+
+        {isLoggedIn ? (
+            <>
+            {/* Avatar */}
+            <Image
+            src="/image/user.png"
+            alt="User Avatar"
+            width={45}
+            height={45}
+        />
+
+
+              {/* Logout Button */}
+            <button className="bg-red-500 px-3 py-1 rounded text-white">
+                Logout
+            </button>
+            </>
+        ) : (
+            <>
+              {/* Login */}
+            <Link href="/login">
+                <button className="bg-purple-500 px-3 py-1 rounded text-white">
+                Login
+                </button>
+            </Link>
+
+              {/* Register */}
+            <Link href="/register">
+                <button className="bg-green-500 px-3 py-1 rounded text-white">
+                Register
+                </button>
+            </Link>
+            </>
+        )}
+
+        </div>
 
     </div>
     </nav>
