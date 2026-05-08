@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 async function getCourses() {
-  const res = await fetch("http://localhost:3000/courses.json", {
+  const res = await fetch("https://b13-m8-skill-sphere.vercel.app/courses.json", {
     cache: "no-store",
   });
   return res.json();

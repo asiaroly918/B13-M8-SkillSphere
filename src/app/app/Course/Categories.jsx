@@ -1,5 +1,5 @@
 async function getCategories() {
-  const res = await fetch("http://localhost:3000/categories.json");
+  const res = await fetch("https://b13-m8-skill-sphere.vercel.app/categories.json");
   return res.json();
 }
 
