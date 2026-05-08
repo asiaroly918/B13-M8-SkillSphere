@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="space-y-4">
             <div className="flex items-center gap-2">
             <Image
-                src="/images/logo.png"
+                src="https://b13-m8-skill-sphere.vercel.app/images/logo.png"
                 alt="Logo"
                 width={120}
                 height={120}

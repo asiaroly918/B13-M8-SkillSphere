@@ -39,7 +39,7 @@ const Banner = () => {
         <div className="absolute w-[350px] h-[350px] bg-gradient-to-r from-purple-500 to-blue-500 rounded-full blur-3xl opacity-30"></div>
 
         <Image
-            src="/images/hero.png"
+            src="https://b13-m8-skill-sphere.vercel.app/images/hero.png"
             alt="hero"
             width={400}
             height={400}

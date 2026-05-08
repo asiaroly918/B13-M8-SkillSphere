@@ -14,7 +14,7 @@ const Navbar = () => {
     {/*Logo */}
         <div>
         <Image
-            src="/images/logo.png"
+            src="https://b13-m8-skill-sphere.vercel.app/images/logo.png"
             alt="SkillSphere Logo"
             width={110}
             height={110}
