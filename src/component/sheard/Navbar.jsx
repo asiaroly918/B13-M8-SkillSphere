@@ -14,10 +14,10 @@ const Navbar = () => {
     {/*Logo */}
         <div>
         <Image
-            src="https://b13-m8-skill-sphere.vercel.app/images/logo.png"
+            src="https://b13-m8-skill-sphere.vercel.app/Image/logo.png"
             alt="SkillSphere Logo"
-            width={110}
-            height={110}
+            width={100}
+            height={100}
             priority
         />
         </div>

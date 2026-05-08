@@ -16,10 +16,10 @@ const Footer = () => {
         <div className="space-y-4">
             <div className="flex items-center gap-2">
             <Image
-                src="https://b13-m8-skill-sphere.vercel.app/images/logo.png"
+                src="https://b13-m8-skill-sphere.vercel.app/Image/logo.png"
                 alt="Logo"
-                width={120}
-                height={120}
+                width={100}
+                height={100}
                 priority
                 />
             <h2 className="text-xl font-semibold">SkillSphere</h2>

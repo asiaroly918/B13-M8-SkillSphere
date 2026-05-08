@@ -39,10 +39,10 @@ const Banner = () => {
         <div className="absolute w-[350px] h-[350px] bg-gradient-to-r from-purple-500 to-blue-500 rounded-full blur-3xl opacity-30"></div>
 
         <Image
-            src="https://b13-m8-skill-sphere.vercel.app/images/hero.png"
+            src="https://b13-m8-skill-sphere.vercel.app/Image/hero.png"
             alt="hero"
-            width={400}
-            height={400}
+            width={500}
+            height={300}
             className="relative z-10"
         />
         </div>
