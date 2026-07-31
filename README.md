@@ -14,7 +14,7 @@ pnpm dev
 bun dev
 ```
 
-Open [https://b13-m8-skill-sphere.vercel.app](https://b13-m8-skill-sphere.vercel.app) with your browser to see the result.
+Open [https://m8-b13-skill-sphere.vercel.app](https://m8-b13-skill-sphere.vercel.app) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
